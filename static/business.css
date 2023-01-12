@@ -1,0 +1,212 @@
+/*************************************************
+hw6 bussiness.css
+*************************************************/
+
+hr{
+    border: none;
+    width: 100%;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin-left: auto;
+    margin-right: auto;
+    width: 48%;
+    height: 630px;
+}
+.card2 {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+}
+.card3 {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin-left: auto;
+    margin-right: auto;
+    width: 55%;
+}
+
+.container {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 86%;
+}
+.banner {
+    display: flex;
+    float: left;
+    height: 165px;
+    width: 100%;
+    object-fit: cover;
+    object-position: bottom;
+}
+.night{
+    position: relative;
+}
+.center{
+    position: absolute;
+    color: white;
+    left: 7%;
+}
+.center1{
+    font-family: Arial; 
+    font-size: 26px;
+}
+.center2{
+    font-family: Arial;
+    font-size: 23px;
+}
+.four{
+    font-family: Arial;
+    font-size: 16px;
+    color: rgb(60, 81, 183)
+}
+.left{
+    font-family: Arial;
+    font-size: 16px;
+    color: rgb(60, 81, 183)
+}
+
+.right{
+    font-family: Arial;
+    font-size: 16px;
+    color: rgb(60, 81, 183);
+    margin-left: 210px;
+
+}
+.checkbox{
+    font-family: Arial;
+    font-size: 21px;
+    color: rgb(60, 81, 183);
+}
+.line{
+    border-top: 2px solid;
+    color: rgb(82, 104, 212);
+}
+.greyLine{
+    width: 95%;
+    border-top: 1px solid;
+    color: rgb(201, 198, 198);
+}
+.redmark{
+    font-family: Arial;
+    font-size: 16px;
+    color:red;
+}
+.card2Table{
+    font-family: arial;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table.card2Table th{
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+    background-color: rgb(73, 91, 181);
+}
+
+table.card2Table td{
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 6px;
+}
+
+.card3Table{
+    font-family: arial;
+    border-collapse: separate;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    border: none;
+}
+.row5 td{
+    width: 33%;
+}
+.photoCaption{
+    object-position: bottom;
+}
+.photos{
+    border: 1px solid #dddddd;
+    height: "500px";
+}
+.information{
+    font-size: small;
+    margin-top: -15px;
+}
+.card3Table2{
+    font-family: arial;
+    font-size: 12px;
+    font-weight: bold;
+    border-collapse: separate;
+    border-spacing: 5px;
+    border: none;
+}
+#Keyword{
+    width: 100%;
+    padding: 8px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid rgb(201, 198, 198);
+    box-sizing: border-box;
+}
+
+#Distance{
+    padding: 8px 10px;
+    margin: 8px 0;
+    display: inline-flex;
+    border: 2px solid rgb(201, 198, 198);
+    box-sizing: border-box;
+    width: 28%;
+    float: left;
+}
+
+#Category{
+    padding: 8px 10px;
+    margin: 8px 0;
+    display: inline-flex;
+    border: 2px solid rgb(201, 198, 198);
+    box-sizing: border-box;
+    /* margin-left: 140px; */
+    float: right;
+    width: 48%;
+}
+
+#Location{
+    width: 100%;
+    padding: 8px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid rgb(201, 198, 198);
+    box-sizing: border-box;
+}
+#autoDetect{
+    width: 16px;
+    height: 16px;
+}
+#submit{
+    background-color: rgb(73, 91, 181);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-bottom: 7px solid rgb(57, 57, 132);
+}
+#clear{
+    background-color: rgb(241, 184, 37);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-bottom: 7px solid rgb(248, 138, 5);
+}

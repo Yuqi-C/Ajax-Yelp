@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="business.css">
+        <script type="text/javascript" src="business.js"></script>
+    </head>    
+    
+    <body>
+        <div class="card">
+            <div class="night">
+                <img src="https://csci571.com/hw/hw6/images/banner.jpeg" class="banner" alt="banner">
+                <div class="center">
+                    <hr><hr><hr>
+                    <p class="center1"><b>Business Search</b></p>
+                    <p class="center2">Fill out the form to get businesses near you!</p>
+                </div>
+            </div>
+            <hr><hr><hr><hr>
+            <div class="container">
+                <form id="myform" name="myform" onsubmit="return submitButton();">
+                    <label class="four" for="Keyword">Keyword</label><span class="redmark">*</span><br>
+                    <input type="text" id="Keyword" name="Keyword" required><br>
+                    <hr>
+                    <label class="left" for="Distance">Distance(miles)</label>
+                    <label class="right" for="Category" required>Category</label><span class="redmark">*<br>
+                    <input type="text" name="Distance" size="19" id="Distance" value="10"> 
+                    <select id="Category" name="Category" required>
+                        <option value="Default">Default</option>
+                        <option value="Arts & Entertainment">Arts & Entertainment</option>
+                        <option value="Health & Medical">Health & Medical</option>
+                        <option value="Hotels & Travel">Hotels & Travel</option>
+                        <option value="Food">Food</option>
+                        <option value="Professional Services">Professional Services</option>
+                    </select><br>
+                    <hr>
+                    <label class="four" for="Location">Location</label><span class="redmark">*</span><br>
+                    <input type="text" id="Location" name="Location" required><br>
+                    <hr>
+                    <hr class="line"><hr>
+                    <label for="autoDetect" class="checkbox">Want us to auto-detect your location? Check here</label>
+                    <input type="checkbox" id="autoDetect" name="autoDetect" onclick="autoButton(this)"><br>
+                    <hr><hr><hr>
+                    <input type="hidden" id="status" name="status" value="">
+                    <input type="submit" id="submit" value="SUBMIT">
+                    <input type="button" id="clear" value="CLEAR" onclick="clearButton()">
+                </form>    
+            </div>
+        </div>
+        <hr><hr><hr><hr>
+        <div class="card2" id="card2">   
+        </div>
+
+        <div class="card3" id="card3">
+        </div>
+    </body>
+
+</html>
+
+
