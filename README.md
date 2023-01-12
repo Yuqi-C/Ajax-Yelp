@@ -6,7 +6,7 @@ Tech: HTML5/CSS/JavaScript
 External APIs: Google Maps API, Ipinfo API  
 
 ### File Description
-./Android:Java/app/src/main/java/com/yuqiC includes event-based functions of the interface.
+./static/business.js includes event-based functions of the interface.
 
 ## Backend
 ### Environment
@@ -15,7 +15,7 @@ Framework: Flask
 External APIs: Yelp Fusion API, Google Geocoding API
 
 ### File Description
-./backend/server.js is the code used to build the server.
+./gcloud/main.py is the code used to build the server.
 
 ### Deployment
 Deployed on Google GCP.
